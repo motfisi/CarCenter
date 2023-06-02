@@ -2,7 +2,7 @@
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by FernFlower decompiler)
 //
-
+//asdsasad
 package main.java.org.example;
 
 import java.util.Scanner;
