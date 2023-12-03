@@ -3,6 +3,7 @@ package main.java.org.example.model;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Random;
 
 public class CarCenter {
     private List<Car> cars;
@@ -37,6 +38,7 @@ public class CarCenter {
             System.out.println(customer.toString());
         }
     }
+
     public int getTotalValue() {
         int total = 0;
         for (Car car : cars) {
@@ -98,4 +100,6 @@ public class CarCenter {
         cars.sort(Comparator.comparing(Car::getYear));
         System.out.println(cars);
     }
+
+
 }
